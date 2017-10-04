@@ -12,15 +12,15 @@ view: data_elements {
     sql: ${TABLE}.feature_description ;;
     link: {
       label: "Tolerances"
-      url: "http://localhost:9999/embed/dashboards/cda_ice::cda_ice_tolerances?feature_description={{ value }}"
+      url: "http://localhost:9999/embed/dashboards/cda_ice_smc::cda_ice_tolerances?feature_description={{ value }}"
     }
     link: {
       label: "Business Rules"
-      url: "http://localhost:9999/embed/dashboards/cda_ice::cda_ice_business_rules?rule_type=&feature_description={{ value }}"
+      url: "http://localhost:9999/embed/dashboards/cda_ice_smc::cda_ice_business_rules?rule_type=&feature_description={{ value }}"
     }
     link: {
       label: "Data Elements"
-      url: "http://localhost:9999/embed/dashboards/cda_ice::cda_ice_data_elements?feature_description={{ value }}"
+      url: "http://localhost:9999/embed/dashboards/cda_ice_smc::cda_ice_data_elements?feature_description={{ value }}"
     }
   }
 
