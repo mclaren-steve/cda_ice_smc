@@ -58,7 +58,7 @@
     top: 0
     height: 15
     width: 15
-    model: cda_ice
+    model: cda_ice_smc
     explore: summary_cda
     measures: [summary_cda.passed, summary_cda.failed]
     listen:
@@ -103,7 +103,7 @@
     top: 0
     height: 15
     width: 15
-    model: cda_ice
+    model: cda_ice_smc
     explore: summary_cda
     measures: [summary_cda.passed, summary_cda.failed]
     listen:

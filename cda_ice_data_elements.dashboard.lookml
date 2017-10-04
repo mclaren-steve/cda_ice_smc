@@ -24,7 +24,7 @@
   - name: cda_ice_data_elements
     title: Data Elements
     type: table
-    model: cda_ice
+    model: cda_ice_smc
     explore: data_elements
     dimensions: [data_elements_detail.data_element_name, data_elements_detail.data_family,
       data_elements_detail.data_element_type, data_elements.feature_description, data_elements_detail.acronym,

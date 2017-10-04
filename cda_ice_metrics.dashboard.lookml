@@ -21,7 +21,7 @@
   - name: cda_ice_records_chart
     title: Records Loaded
     type: looker_column
-    model: cda_ice
+    model: cda_ice_smc
     explore: files
     dimensions: [files.file_name]
     pivots: [files.file_name]
@@ -60,7 +60,7 @@
   - name: cda_ice_records_detail
     title: Records Loaded Detail
     type: table
-    model: cda_ice
+    model: cda_ice_smc
     explore: files
     dimensions: [files.file_name, files.records_loaded, files.file_time_stamp, files.load_time_stamp]
     sorts: [files.file_name]
@@ -83,7 +83,7 @@
   - name: cda_ice_rule_count
     title: Rule Count
     type: looker_bar
-    model: cda_ice
+    model: cda_ice_smc
     explore: data_elements_rules
     dimensions: [data_elements.feature_description]
     measures: [data_elements_rules.count]

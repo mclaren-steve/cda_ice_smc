@@ -24,7 +24,7 @@
   - name: cda_ice_tolerances
     title: Tolerances
     type: table
-    model: cda_ice
+    model: cda_ice_smc
     explore: v_cdatolerances
     dimensions: [v_cdatolerances.sort_order, v_cdatolerances.family_name, v_cdatolerances.family_description,
       data_elements.feature_description, v_cdatolerances.rule_type, v_cdatolerances.green,

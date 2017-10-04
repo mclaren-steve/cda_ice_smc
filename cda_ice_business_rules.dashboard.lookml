@@ -36,7 +36,7 @@
   - name: cda_ice_business_rules_chart
     title: Business Rule Count
     type: looker_column
-    model: cda_ice
+    model: cda_ice_smc
     explore: data_elements_rules
     dimensions: [data_elements_rule_types.rule_type]
     pivots: [data_elements_rule_types.rule_type]
@@ -83,7 +83,7 @@
   - name: cda_ice_business_rules
     title: Business Rules
     type: table
-    model: cda_ice
+    model: cda_ice_smc
     explore: data_elements_rules
     dimensions: [data_elements.feature_name, data_elements.feature_description, data_elements_rule_types.rule_type, data_elements_rules.rule_description]
     listen:

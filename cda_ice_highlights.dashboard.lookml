@@ -47,7 +47,7 @@
     height: 10
     width: 30
     type: looker_donut_multiples
-    model: cda_ice
+    model: cda_ice_smc
     explore: summary_cda
     dimensions: [data_elements_rule_types.rule_type]
     measures: [summary_cda.passed, summary_cda.failed]
