@@ -365,7 +365,7 @@
       height: 150
       width: 10
       type: looker_bar
-      model: cda_ice
+      model: cda_ice_smc
       explore: summary_cda
       dimensions: [data_elements.feature_description, summary_cda.sort_order, summary_cda_tolerance.rag_lower,summary_cda_tolerance.rag_upper]
       measures: [summary_cda.red, summary_cda.amber, summary_cda.green, summary_cda.total100]
